@@ -1,6 +1,6 @@
 # Vaadin Fluent
  
-Fluency wrappers for all things Vaadin 14.
+Fluent factories for all things Vaadin.
 
 ## License
 
