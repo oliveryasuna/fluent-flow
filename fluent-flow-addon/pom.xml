@@ -33,8 +33,9 @@
         <version>1</version>
     </parent>
 
+    <groupId>org.vaadin.addons</groupId>
     <artifactId>fluent-flow</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <packaging>jar</packaging>
 
     <modules/>
