@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright 2021 Oliver Yasuna
+  ~
+  ~ Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+  ~
+  ~ 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+  ~ 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation
+  ~     and/or other materials provided with the distribution.
+  ~ 3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without
+  ~      specific prior written permission.
+  ~
+  ~ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+  ~ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+  ~ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+  ~ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
+  ~ TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--==================================================
+    ==== Core
+    ==================================================-->
+
+    <parent>
+        <groupId>com.oliveryasuna.vaadin</groupId>
+        <artifactId>fluent-flow-parent</artifactId>
+        <version>1</version>
+    </parent>
+
+    <artifactId>vaadin-fluent-demo</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <modules/>
+
+    <properties>
+        <!--=========================
+        ==== Versions
+        =========================-->
+
+        <fluent-flow.version>0.1</fluent-flow.version>
+
+        <spring.version>2.5.2</spring.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- Spring Boot Dependencies. -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring.version}</version>
+
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <!-- Vaadin Fluent. -->
+        <dependency>
+            <groupId>com.oliveryasuna.vaadin</groupId>
+            <artifactId>fluent-flow</artifactId>
+            <version>${fluent-flow.version}</version>
+        </dependency>
+
+        <!-- Vaadin Spring Boot Starter. -->
+        <dependency>
+            <groupId>com.vaadin</groupId>
+            <artifactId>vaadin-spring-boot-starter</artifactId>
+        </dependency>
+    </dependencies>
+
+    <!--==================================================
+    ==== Build
+    ==================================================-->
+
+    <build>
+        <plugins>
+            <!-- Spring Boot. -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${spring.version}</version>
+            </plugin>
+        </plugins>
+    </build>
+
+    <reporting/>
+
+    <!--==================================================
+    ==== Details
+    ==================================================-->
+
+    <name>Fluent Flow Demo</name>
+    <description>Fluent Flow demo.</description>
+    <url>https://github.com/oliveryasuna/fluen-flow</url>
+    <inceptionYear>2021</inceptionYear>
+    <licenses>
+        <license>
+            <name>BSD 3-Clause</name>
+            <url>https://opensource.org/licenses/BSD-3-Clause</url>
+            <comments>Copyright 2021 Oliver Yasuna</comments>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <organization>
+        <name>Oliver Yasuna</name>
+        <url>https://oliveryasuna.github.io/</url>
+    </organization>
+    <developers>
+        <developer>
+            <id>oliver-yasuna</id>
+
+            <name>Oliver Yasuna</name>
+            <url>https://oliveryasuna.github.io/</url>
+
+            <timezone>America/New_York</timezone>
+        </developer>
+    </developers>
+    <contributors/>
+
+    <!--==================================================
+    ==== Environment
+    ==================================================-->
+
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/oliveryasuna/fluent-flow/issues</url>
+    </issueManagement>
+    <ciManagement/>
+
+    <mailingLists/>
+
+    <scm>
+        <url>https://github.com/oliveryasuna/fluent-flow</url>
+        <connection>scm:git:git://github.com/oliveryasuna/fluent-flow.git</connection>
+        <developerConnection>scm:git:git://github.com/oliveryasuna/fluent-flow.git</developerConnection>
+    </scm>
+
+    <repositories/>
+    <pluginRepositories/>
+
+    <distributionManagement/>
+
+    <profiles/>
+
+</project>

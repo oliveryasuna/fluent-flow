@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright 2021 Oliver Yasuna
+  ~
+  ~ Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+  ~
+  ~ 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+  ~ 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation
+  ~     and/or other materials provided with the distribution.
+  ~ 3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without
+  ~      specific prior written permission.
+  ~
+  ~ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+  ~ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+  ~ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+  ~ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
+  ~ TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--==================================================
+    ==== Core
+    ==================================================-->
+
+    <parent>
+        <groupId>com.oliveryasuna.vaadin</groupId>
+        <artifactId>fluent-flow-parent</artifactId>
+        <version>1</version>
+    </parent>
+
+    <artifactId>fluent-flow</artifactId>
+    <version>0.0.1</version>
+    <packaging>jar</packaging>
+
+    <modules/>
+
+    <properties>
+        <!--=========================
+        ==== Versions
+        =========================-->
+
+        <commons-language.version>1.0.0</commons-language.version>
+
+        <webdrivermanager.version>4.4.1</webdrivermanager.version>
+
+        <maven-jar-plugin.version>3.2.0</maven-jar-plugin.version>
+        <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
+        <maven-javadoc-plugin.version>3.3.0</maven-javadoc-plugin.version>
+        <maven-assembly-plugin.version>3.3.0</maven-assembly-plugin.version>
+
+        <jetty-maven-plugin.version>9.4.43.v20210629</jetty-maven-plugin.version>
+    </properties>
+
+    <dependencyManagement/>
+
+    <dependencies>
+        <!-- Commons Language. -->
+        <dependency>
+            <groupId>com.oliveryasuna.commons</groupId>
+            <artifactId>commons-language</artifactId>
+            <version>${commons-language.version}</version>
+        </dependency>
+
+        <!-- Vaadin TestBench. -->
+        <dependency>
+            <groupId>com.vaadin</groupId>
+            <artifactId>vaadin-testbench</artifactId>
+
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Web Driver Manager. -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>${webdrivermanager.version}</version>
+
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Slf4j. -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <!--==================================================
+    ==== Build
+    ==================================================-->
+
+    <build>
+        <plugins>
+            <!-- Vaadin plugin. -->
+            <plugin>
+                <groupId>com.vaadin</groupId>
+                <artifactId>vaadin-maven-plugin</artifactId>
+            </plugin>
+
+            <!-- Jetty plugin. -->
+            <plugin>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <version>${jetty-maven-plugin.version}</version>
+
+                <configuration>
+                    <scanIntervalSeconds>3</scanIntervalSeconds>
+
+                    <useTestScope>true</useTestScope>
+
+                    <supportedPackagings>
+                        <supportedPackaging>jar</supportedPackaging>
+                    </supportedPackagings>
+
+                    <reload>manual</reload>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <reporting/>
+
+    <!--==================================================
+    ==== Details
+    ==================================================-->
+
+    <name>Fluent Flow</name>
+    <description>Vaadin fluent wrapper.</description>
+    <url>https://github.com/oliveryasuna/fluent-flow</url>
+    <inceptionYear>2021</inceptionYear>
+    <licenses>
+        <license>
+            <name>BSD 3-Clause</name>
+            <url>https://opensource.org/licenses/BSD-3-Clause</url>
+            <comments>Copyright 2021 Oliver Yasuna</comments>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <organization>
+        <name>Oliver Yasuna</name>
+        <url>https://oliveryasuna.github.io/</url>
+    </organization>
+    <developers>
+        <developer>
+            <id>oliver-yasuna</id>
+
+            <name>Oliver Yasuna</name>
+            <url>https://oliveryasuna.github.io/</url>
+
+            <timezone>America/New_York</timezone>
+        </developer>
+    </developers>
+    <contributors/>
+
+    <!--==================================================
+    ==== Environment
+    ==================================================-->
+
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/oliveryasuna/fluent-flow/issues</url>
+    </issueManagement>
+    <ciManagement/>
+
+    <mailingLists/>
+
+    <scm>
+        <url>https://github.com/oliveryasuna/fluent-flow</url>
+        <connection>scm:git:git://github.com/oliveryasuna/fluent-flow.git</connection>
+        <developerConnection>scm:git:git://github.com/oliveryasuna/fluent-flow.git</developerConnection>
+    </scm>
+
+    <repositories/>
+    <pluginRepositories/>
+
+    <distributionManagement/>
+
+    <profiles>
+        <!-- For publishing to the Vaadin Directory. -->
+        <profile>
+            <id>vaadin-directory</id>
+
+            <build>
+                <plugins>
+                    <!-- Jar. -->
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-jar-plugin</artifactId>
+                        <version>${maven-jar-plugin.version}</version>
+
+                        <configuration>
+                            <archive>
+                                <index>true</index>
+
+                                <manifest>
+                                    <addClasspath>false</addClasspath>
+                                    <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+                                </manifest>
+                                <manifestEntries>
+                                    <Vaadin-Package-Version>1</Vaadin-Package-Version>
+                                </manifestEntries>
+                            </archive>
+                        </configuration>
+                    </plugin>
+
+                    <!-- Source plugin. -->
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-source-plugin</artifactId>
+                        <version>${maven-source-plugin.version}</version>
+
+                        <executions>
+                            <execution>
+                                <id>attach-sources</id>
+
+                                <phase>verify</phase>
+
+                                <goals>
+                                    <goal>jar-no-fork</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+
+                    <!-- Javadocs plugin. -->
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-javadoc-plugin</artifactId>
+                        <version>${maven-javadoc-plugin.version}</version>
+
+                        <configuration>
+                            <quiet>true</quiet>
+                            <doclint>all</doclint>
+                        </configuration>
+
+                        <executions>
+                            <execution>
+                                <id>attach-javadocs</id>
+
+                                <phase>verify</phase>
+
+                                <goals>
+                                    <goal>jar</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+
+                    <!-- Assembly plugin. -->
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-assembly-plugin</artifactId>
+                        <version>${maven-assembly-plugin.version}</version>
+
+                        <configuration>
+                            <appendAssemblyId>false</appendAssemblyId>
+                            <descriptors>
+                                <descriptor>assembly/assembly.xml</descriptor>
+                            </descriptors>
+                        </configuration>
+
+                        <executions>
+                            <execution>
+                                <phase>install</phase>
+
+                                <goals>
+                                    <goal>single</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+
+</project>
