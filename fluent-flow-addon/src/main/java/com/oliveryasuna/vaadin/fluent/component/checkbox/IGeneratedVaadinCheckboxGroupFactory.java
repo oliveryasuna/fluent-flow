@@ -6,7 +6,6 @@ import com.oliveryasuna.vaadin.fluent.component.IAbstractSinglePropertyFieldFact
 import com.vaadin.flow.component.checkbox.CheckboxGroupVariant;
 import com.vaadin.flow.component.checkbox.GeneratedVaadinCheckboxGroup;
 
-@Deprecated
 public interface IGeneratedVaadinCheckboxGroupFactory<T extends GeneratedVaadinCheckboxGroup<R, T2>,
     F extends IGeneratedVaadinCheckboxGroupFactory<T, F, R, T2>, R extends GeneratedVaadinCheckboxGroup<R, T2>, T2>
     extends IAbstractSinglePropertyFieldFactory<T, F, R, T2>, HasStyleFactory<T, F>, HasThemeFactory<T, F> {

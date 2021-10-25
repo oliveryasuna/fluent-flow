@@ -44,7 +44,7 @@
         ==== Versions
         =========================-->
 
-        <fluent-flow.version>0.1</fluent-flow.version>
+        <fluent-flow.version>0.0.1</fluent-flow.version>
 
         <spring.version>2.5.2</spring.version>
     </properties>
@@ -66,7 +66,7 @@
     <dependencies>
         <!-- Vaadin Fluent. -->
         <dependency>
-            <groupId>com.oliveryasuna.vaadin</groupId>
+            <groupId>org.vaadin.addons</groupId>
             <artifactId>fluent-flow</artifactId>
             <version>${fluent-flow.version}</version>
         </dependency>

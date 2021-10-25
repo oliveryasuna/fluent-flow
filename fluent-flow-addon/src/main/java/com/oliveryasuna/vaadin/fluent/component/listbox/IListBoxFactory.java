@@ -23,6 +23,6 @@ import com.oliveryasuna.vaadin.fluent.data.selection.SingleSelectFactory;
 import com.vaadin.flow.component.listbox.ListBox;
 
 public interface IListBoxFactory<T extends ListBox<T2>, F extends IListBoxFactory<T, F, T2>, T2> extends IFluentFactory<T, F>,
-    SingleSelectFactory<T, F, ListBox<T2>, T2> {
+    IListBoxBaseFactory<T, F, ListBox<T2>, T2, T2>, SingleSelectFactory<T, F, ListBox<T2>, T2> {
 
 }
