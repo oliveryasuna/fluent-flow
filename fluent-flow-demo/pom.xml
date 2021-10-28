@@ -66,7 +66,7 @@
     <dependencies>
         <!-- Vaadin Fluent. -->
         <dependency>
-            <groupId>org.vaadin.addons</groupId>
+            <groupId>org.vaadin.addons.oliveryasuna</groupId>
             <artifactId>fluent-flow</artifactId>
             <version>${fluent-flow.version}</version>
         </dependency>
