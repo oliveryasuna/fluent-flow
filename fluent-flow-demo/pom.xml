@@ -34,7 +34,7 @@
     </parent>
 
     <artifactId>vaadin-fluent-demo</artifactId>
-    <version>1.0.0</version>
+    <version>0.0.3</version>
     <packaging>jar</packaging>
 
     <modules/>
@@ -44,7 +44,7 @@
         ==== Versions
         =========================-->
 
-        <fluent-flow.version>0.0.1</fluent-flow.version>
+        <fluent-flow.version>0.0.3</fluent-flow.version>
 
         <spring.version>2.5.2</spring.version>
     </properties>
