@@ -1,5 +1,6 @@
 package com.oliveryasuna.vaadin.fluent.component.avatar;
 
+import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
 import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.avatar.AvatarGroup;
 import com.vaadin.flow.component.avatar.AvatarGroup.AvatarGroupItem;
@@ -24,7 +25,7 @@ public class AvatarGroupFactory extends ComponentFactory<AvatarGroup, AvatarGrou
     super(new AvatarGroup(items));
   }
 
-  public static class AvatarGroupItemFactory extends ComponentFactory<AvatarGroupItem, AvatarGroupItemFactory>
+  public static class AvatarGroupItemFactory extends FluentFactory<AvatarGroupItem, AvatarGroupItemFactory>
       implements IAvatarGroupItemFactory<AvatarGroupItem, AvatarGroupItemFactory> {
 
     public AvatarGroupItemFactory(final AvatarGroupItem avatarGroupItem) {

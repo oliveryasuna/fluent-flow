@@ -1,11 +1,11 @@
 package com.oliveryasuna.vaadin.fluent.component.contextmenu;
 
-import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
 import com.vaadin.flow.component.contextmenu.MenuItem;
 import com.vaadin.flow.component.contextmenu.SubMenu;
 import com.vaadin.flow.function.SerializableRunnable;
 
-public class SubMenuFactory extends ComponentFactory<SubMenu, SubMenuFactory> implements ISubMenuFactory<SubMenu, SubMenuFactory> {
+public class SubMenuFactory extends FluentFactory<SubMenu, SubMenuFactory> implements ISubMenuFactory<SubMenu, SubMenuFactory> {
 
   public SubMenuFactory(final SubMenu subMenu) {
     super(subMenu);
