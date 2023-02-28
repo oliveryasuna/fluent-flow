@@ -1,6 +1,6 @@
 package com.oliveryasuna.vaadin.fluent.component.icon;
 
-import com.oliveryasuna.commons.language.fluent.FluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
 import com.vaadin.flow.component.icon.IronIcon;
 
 public class IronIconFactory extends FluentFactory<IronIcon, IronIconFactory> implements IIronIconFactory<IronIcon, IronIconFactory> {

@@ -1,9 +1,9 @@
 package com.oliveryasuna.vaadin.fluent.component.textfield;
 
-import com.oliveryasuna.commons.language.fluent.IFluentFactory;
-import com.oliveryasuna.commons.language.fluent.breakdown.BooleanValueBreak;
-import com.oliveryasuna.commons.language.fluent.breakdown.IntValueBreak;
-import com.oliveryasuna.commons.language.fluent.breakdown.ValueBreak;
+import com.oliveryasuna.commons.language.pattern.fluent.IFluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.breakdown.BooleanValueBreak;
+import com.oliveryasuna.commons.language.pattern.fluent.breakdown.IntValueBreak;
+import com.oliveryasuna.commons.language.pattern.fluent.breakdown.ValueBreak;
 import com.oliveryasuna.vaadin.fluent.component.*;
 import com.oliveryasuna.vaadin.fluent.data.value.HasValueChangeModeFactory;
 import com.vaadin.flow.component.textfield.TextArea;

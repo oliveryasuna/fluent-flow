@@ -18,8 +18,8 @@
 
 package com.oliveryasuna.vaadin.fluent.component;
 
-import com.oliveryasuna.commons.language.fluent.IFluentFactory;
-import com.oliveryasuna.commons.language.fluent.breakdown.ValueBreak;
+import com.oliveryasuna.commons.language.pattern.fluent.IFluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.breakdown.ValueBreak;
 import com.vaadin.flow.component.Text;
 
 public interface ITextFactory<T extends Text, F extends ITextFactory<T, F>> extends IFluentFactory<T, F>, IComponentFactory<T, F>, HasTextFactory<T, F> {

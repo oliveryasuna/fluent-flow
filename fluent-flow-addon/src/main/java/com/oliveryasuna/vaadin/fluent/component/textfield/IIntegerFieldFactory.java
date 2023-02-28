@@ -1,7 +1,7 @@
 package com.oliveryasuna.vaadin.fluent.component.textfield;
 
-import com.oliveryasuna.commons.language.fluent.IFluentFactory;
-import com.oliveryasuna.commons.language.fluent.breakdown.IntValueBreak;
+import com.oliveryasuna.commons.language.pattern.fluent.IFluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.breakdown.IntValueBreak;
 import com.vaadin.flow.component.textfield.IntegerField;
 
 public interface IIntegerFieldFactory<T extends IntegerField, F extends IIntegerFieldFactory<T, F>> extends IFluentFactory<T, F>,

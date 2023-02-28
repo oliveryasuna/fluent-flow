@@ -1,6 +1,6 @@
 package com.oliveryasuna.vaadin.fluent.component.textfield;
 
-import com.oliveryasuna.commons.language.fluent.FluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
 import com.vaadin.flow.component.textfield.GeneratedVaadinEmailField;
 
 public abstract class GeneratedVaadinEmailFieldFactory<R extends GeneratedVaadinEmailField<R, T>, T>

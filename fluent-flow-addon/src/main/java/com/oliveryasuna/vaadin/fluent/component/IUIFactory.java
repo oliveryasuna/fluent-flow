@@ -18,10 +18,10 @@
 
 package com.oliveryasuna.vaadin.fluent.component;
 
-import com.oliveryasuna.commons.language.fluent.IFluentFactory;
-import com.oliveryasuna.commons.language.fluent.breakdown.BooleanValueBreak;
-import com.oliveryasuna.commons.language.fluent.breakdown.IntValueBreak;
-import com.oliveryasuna.commons.language.fluent.breakdown.ValueBreak;
+import com.oliveryasuna.commons.language.pattern.fluent.IFluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.breakdown.BooleanValueBreak;
+import com.oliveryasuna.commons.language.pattern.fluent.breakdown.IntValueBreak;
+import com.oliveryasuna.commons.language.pattern.fluent.breakdown.ValueBreak;
 import com.oliveryasuna.vaadin.fluent.router.RouterLayoutFactory;
 import com.vaadin.flow.component.*;
 import com.vaadin.flow.component.internal.UIInternals;

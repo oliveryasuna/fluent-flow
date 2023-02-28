@@ -1,9 +1,9 @@
 package com.oliveryasuna.vaadin.fluent.component.notification;
 
-import com.oliveryasuna.commons.language.fluent.IFluentFactory;
-import com.oliveryasuna.commons.language.fluent.breakdown.BooleanValueBreak;
-import com.oliveryasuna.commons.language.fluent.breakdown.IntValueBreak;
-import com.oliveryasuna.commons.language.fluent.breakdown.ValueBreak;
+import com.oliveryasuna.commons.language.pattern.fluent.IFluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.breakdown.BooleanValueBreak;
+import com.oliveryasuna.commons.language.pattern.fluent.breakdown.IntValueBreak;
+import com.oliveryasuna.commons.language.pattern.fluent.breakdown.ValueBreak;
 import com.oliveryasuna.vaadin.fluent.component.HasComponentsFactory;
 import com.oliveryasuna.vaadin.fluent.component.HasThemeFactory;
 import com.vaadin.flow.component.AttachEvent;

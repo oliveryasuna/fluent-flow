@@ -1,6 +1,6 @@
 package com.oliveryasuna.vaadin.fluent.component.notification;
 
-import com.oliveryasuna.commons.language.fluent.FluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
 import com.vaadin.flow.component.notification.GeneratedVaadinNotification;
 
 public abstract class GeneratedVaadinNotificationFactory<R extends GeneratedVaadinNotification<R>>

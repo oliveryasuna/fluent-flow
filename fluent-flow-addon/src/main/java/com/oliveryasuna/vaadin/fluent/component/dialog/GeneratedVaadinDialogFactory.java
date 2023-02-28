@@ -1,6 +1,6 @@
 package com.oliveryasuna.vaadin.fluent.component.dialog;
 
-import com.oliveryasuna.commons.language.fluent.FluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
 import com.vaadin.flow.component.dialog.GeneratedVaadinDialog;
 
 public abstract class GeneratedVaadinDialogFactory<R extends GeneratedVaadinDialog<R>>

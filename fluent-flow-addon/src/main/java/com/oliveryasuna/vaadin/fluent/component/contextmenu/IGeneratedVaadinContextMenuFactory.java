@@ -1,6 +1,6 @@
 package com.oliveryasuna.vaadin.fluent.component.contextmenu;
 
-import com.oliveryasuna.commons.language.fluent.IFluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.IFluentFactory;
 import com.oliveryasuna.vaadin.fluent.component.ClickNotifierFactory;
 import com.oliveryasuna.vaadin.fluent.component.HasStyleFactory;
 import com.oliveryasuna.vaadin.fluent.component.IComponentFactory;

@@ -1,6 +1,6 @@
 package com.oliveryasuna.vaadin.fluent.router;
 
-import com.oliveryasuna.commons.language.fluent.IFluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.IFluentFactory;
 import com.oliveryasuna.vaadin.fluent.component.HasElementFactory;
 import com.vaadin.flow.component.HasElement;
 import com.vaadin.flow.router.RouterLayout;

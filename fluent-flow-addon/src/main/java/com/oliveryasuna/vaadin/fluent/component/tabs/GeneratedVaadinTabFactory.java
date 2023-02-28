@@ -1,6 +1,6 @@
 package com.oliveryasuna.vaadin.fluent.component.tabs;
 
-import com.oliveryasuna.commons.language.fluent.FluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
 import com.vaadin.flow.component.tabs.GeneratedVaadinTab;
 
 public abstract class GeneratedVaadinTabFactory<R extends GeneratedVaadinTab<R>> extends FluentFactory<GeneratedVaadinTab<R>, GeneratedVaadinTabFactory<R>>

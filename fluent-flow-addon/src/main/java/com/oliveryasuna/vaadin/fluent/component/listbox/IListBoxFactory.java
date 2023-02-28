@@ -18,7 +18,7 @@
 
 package com.oliveryasuna.vaadin.fluent.component.listbox;
 
-import com.oliveryasuna.commons.language.fluent.IFluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.IFluentFactory;
 import com.oliveryasuna.vaadin.fluent.data.selection.SingleSelectFactory;
 import com.vaadin.flow.component.listbox.ListBox;
 

@@ -1,6 +1,6 @@
 package com.oliveryasuna.vaadin.fluent.component.textfield;
 
-import com.oliveryasuna.commons.language.fluent.FluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
 import com.vaadin.flow.component.textfield.AbstractNumberField;
 
 public abstract class AbstractNumberFieldFactory<C extends AbstractNumberField<C, T>, T extends Number>

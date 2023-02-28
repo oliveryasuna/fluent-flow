@@ -18,7 +18,7 @@
 
 package com.oliveryasuna.vaadin.fluent.component.upload;
 
-import com.oliveryasuna.commons.language.fluent.FluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
 import com.vaadin.flow.component.upload.GeneratedVaadinUploadFile;
 
 public abstract class GeneratedVaadinUploadFileFactory<R extends GeneratedVaadinUploadFile<R>>

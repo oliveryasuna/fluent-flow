@@ -1,7 +1,7 @@
 package com.oliveryasuna.vaadin.fluent.component.contextmenu;
 
-import com.oliveryasuna.commons.language.fluent.IFluentFactory;
-import com.oliveryasuna.commons.language.fluent.breakdown.ValueBreak;
+import com.oliveryasuna.commons.language.pattern.fluent.IFluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.breakdown.ValueBreak;
 import com.oliveryasuna.vaadin.fluent.component.HasComponentsFactory;
 import com.oliveryasuna.vaadin.fluent.component.HasEnabledFactory;
 import com.oliveryasuna.vaadin.fluent.component.HasTextFactory;

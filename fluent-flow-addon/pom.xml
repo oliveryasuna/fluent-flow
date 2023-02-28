@@ -30,12 +30,12 @@
     <parent>
         <groupId>com.oliveryasuna.vaadin</groupId>
         <artifactId>fluent-flow-parent</artifactId>
-        <version>1</version>
+        <version>2</version>
     </parent>
 
     <groupId>org.vaadin.addons.oliveryasuna</groupId>
     <artifactId>fluent-flow</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.4</version>
     <packaging>jar</packaging>
 
     <modules/>
@@ -45,7 +45,7 @@
         ==== Versions
         =========================-->
 
-        <commons-language.version>1.0.0</commons-language.version>
+        <commons-language.version>5.4.1</commons-language.version>
 
         <webdrivermanager.version>4.4.1</webdrivermanager.version>
 
@@ -62,7 +62,7 @@
     <dependencies>
         <!-- Commons Language. -->
         <dependency>
-            <groupId>com.oliveryasuna.commons</groupId>
+            <groupId>com.oliveryasuna</groupId>
             <artifactId>commons-language</artifactId>
             <version>${commons-language.version}</version>
         </dependency>

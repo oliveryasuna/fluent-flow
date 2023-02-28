@@ -1,6 +1,6 @@
 package com.oliveryasuna.vaadin.fluent.component.applayout;
 
-import com.oliveryasuna.commons.language.fluent.IFluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.IFluentFactory;
 import com.oliveryasuna.vaadin.fluent.component.button.IButtonFactory;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.applayout.DrawerToggle;

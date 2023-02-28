@@ -1,6 +1,6 @@
 package com.oliveryasuna.vaadin.fluent.component.button;
 
-import com.oliveryasuna.commons.language.fluent.IFluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.IFluentFactory;
 import com.oliveryasuna.vaadin.fluent.component.*;
 import com.vaadin.flow.component.button.ButtonVariant;
 import com.vaadin.flow.component.button.GeneratedVaadinButton;

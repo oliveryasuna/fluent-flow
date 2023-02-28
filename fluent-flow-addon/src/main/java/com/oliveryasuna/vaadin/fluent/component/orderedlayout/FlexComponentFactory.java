@@ -1,8 +1,8 @@
 package com.oliveryasuna.vaadin.fluent.component.orderedlayout;
 
-import com.oliveryasuna.commons.language.fluent.IFluentFactory;
-import com.oliveryasuna.commons.language.fluent.breakdown.DoubleValueBreak;
-import com.oliveryasuna.commons.language.fluent.breakdown.ValueBreak;
+import com.oliveryasuna.commons.language.pattern.fluent.IFluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.breakdown.DoubleValueBreak;
+import com.oliveryasuna.commons.language.pattern.fluent.breakdown.ValueBreak;
 import com.oliveryasuna.vaadin.fluent.component.HasOrderedComponentsFactory;
 import com.oliveryasuna.vaadin.fluent.component.HasSizeFactory;
 import com.oliveryasuna.vaadin.fluent.component.HasStyleFactory;

@@ -1,6 +1,6 @@
 package com.oliveryasuna.vaadin.fluent.data.binder;
 
-import com.oliveryasuna.commons.language.fluent.IFluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.IFluentFactory;
 import com.vaadin.flow.data.binder.HasFilterableDataProvider;
 import com.vaadin.flow.data.provider.DataProvider;
 import com.vaadin.flow.function.SerializableFunction;

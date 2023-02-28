@@ -18,7 +18,7 @@
 
 package com.oliveryasuna.vaadin.fluent.component.webcomponent;
 
-import com.oliveryasuna.commons.language.fluent.IFluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.IFluentFactory;
 import com.oliveryasuna.vaadin.fluent.component.IComponentFactory;
 import com.vaadin.flow.component.webcomponent.WebComponentWrapper;
 import elemental.json.JsonValue;

@@ -1,6 +1,6 @@
 package com.oliveryasuna.vaadin.fluent.component.html;
 
-import com.oliveryasuna.commons.language.fluent.FluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.html.H2;
 

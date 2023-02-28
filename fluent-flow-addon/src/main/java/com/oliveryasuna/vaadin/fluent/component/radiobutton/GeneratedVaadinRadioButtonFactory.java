@@ -18,7 +18,7 @@
 
 package com.oliveryasuna.vaadin.fluent.component.radiobutton;
 
-import com.oliveryasuna.commons.language.fluent.FluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
 import com.vaadin.flow.component.radiobutton.GeneratedVaadinRadioButton;
 
 public abstract class GeneratedVaadinRadioButtonFactory<R extends GeneratedVaadinRadioButton<R>>

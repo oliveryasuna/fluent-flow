@@ -1,8 +1,8 @@
 package com.oliveryasuna.vaadin.fluent.component.progressbar;
 
-import com.oliveryasuna.commons.language.fluent.IFluentFactory;
-import com.oliveryasuna.commons.language.fluent.breakdown.BooleanValueBreak;
-import com.oliveryasuna.commons.language.fluent.breakdown.DoubleValueBreak;
+import com.oliveryasuna.commons.language.pattern.fluent.IFluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.breakdown.BooleanValueBreak;
+import com.oliveryasuna.commons.language.pattern.fluent.breakdown.DoubleValueBreak;
 import com.oliveryasuna.vaadin.fluent.component.HasSizeFactory;
 import com.vaadin.flow.component.progressbar.ProgressBar;
 

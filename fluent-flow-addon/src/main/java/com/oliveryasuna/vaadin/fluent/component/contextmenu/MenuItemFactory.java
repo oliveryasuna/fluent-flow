@@ -1,7 +1,7 @@
 package com.oliveryasuna.vaadin.fluent.component.contextmenu;
 
-import com.oliveryasuna.commons.language.fluent.FluentFactory;
-import com.oliveryasuna.commons.language.fluent.IFluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.IFluentFactory;
 import com.vaadin.flow.component.contextmenu.ContextMenu;
 import com.vaadin.flow.component.contextmenu.MenuItem;
 import com.vaadin.flow.function.SerializableRunnable;

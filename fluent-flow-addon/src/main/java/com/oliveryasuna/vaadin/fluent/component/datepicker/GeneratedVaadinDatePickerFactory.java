@@ -14,7 +14,7 @@
 
 package com.oliveryasuna.vaadin.fluent.component.datepicker;
 
-import com.oliveryasuna.commons.language.fluent.FluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
 import com.vaadin.flow.component.datepicker.GeneratedVaadinDatePicker;
 
 public abstract class GeneratedVaadinDatePickerFactory<R extends GeneratedVaadinDatePicker<R, T>, T>

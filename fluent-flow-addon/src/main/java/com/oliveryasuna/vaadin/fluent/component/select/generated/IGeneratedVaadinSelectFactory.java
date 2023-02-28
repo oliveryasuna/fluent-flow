@@ -18,7 +18,7 @@
 
 package com.oliveryasuna.vaadin.fluent.component.select.generated;
 
-import com.oliveryasuna.commons.language.fluent.IFluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.IFluentFactory;
 import com.oliveryasuna.vaadin.fluent.component.FocusableFactory;
 import com.oliveryasuna.vaadin.fluent.component.HasStyleFactory;
 import com.oliveryasuna.vaadin.fluent.component.IAbstractSinglePropertyFieldFactory;

@@ -18,8 +18,8 @@
 
 package com.oliveryasuna.vaadin.fluent.component.splitlayout;
 
-import com.oliveryasuna.commons.language.fluent.IFluentFactory;
-import com.oliveryasuna.commons.language.fluent.breakdown.ValueBreak;
+import com.oliveryasuna.commons.language.pattern.fluent.IFluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.breakdown.ValueBreak;
 import com.oliveryasuna.vaadin.fluent.component.HasSizeFactory;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.ComponentEventListener;

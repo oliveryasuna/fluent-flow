@@ -18,7 +18,7 @@
 
 package com.oliveryasuna.vaadin.fluent.component.listbox;
 
-import com.oliveryasuna.commons.language.fluent.FluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
 import com.vaadin.flow.component.listbox.ListBox;
 
 public class ListBoxFactory<T> extends FluentFactory<ListBox<T>, ListBoxFactory<T>> implements IListBoxFactory<ListBox<T>, ListBoxFactory<T>, T> {

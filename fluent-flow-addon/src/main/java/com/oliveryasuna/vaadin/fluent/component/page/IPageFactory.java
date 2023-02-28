@@ -18,8 +18,8 @@
 
 package com.oliveryasuna.vaadin.fluent.component.page;
 
-import com.oliveryasuna.commons.language.fluent.IFluentFactory;
-import com.oliveryasuna.commons.language.fluent.breakdown.ValueBreak;
+import com.oliveryasuna.commons.language.pattern.fluent.IFluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.breakdown.ValueBreak;
 import com.vaadin.flow.component.page.BrowserWindowResizeListener;
 import com.vaadin.flow.component.page.History;
 import com.vaadin.flow.component.page.Page;

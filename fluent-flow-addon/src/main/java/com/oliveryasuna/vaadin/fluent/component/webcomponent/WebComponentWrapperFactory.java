@@ -18,7 +18,7 @@
 
 package com.oliveryasuna.vaadin.fluent.component.webcomponent;
 
-import com.oliveryasuna.commons.language.fluent.FluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
 import com.vaadin.flow.component.webcomponent.WebComponentWrapper;
 import com.vaadin.flow.dom.Element;
 import com.vaadin.flow.server.webcomponent.WebComponentBinding;

@@ -18,7 +18,7 @@
 
 package com.oliveryasuna.vaadin.fluent.component.splitlayout;
 
-import com.oliveryasuna.commons.language.fluent.FluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.splitlayout.SplitLayout;
 

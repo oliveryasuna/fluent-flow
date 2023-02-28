@@ -1,7 +1,7 @@
 package com.oliveryasuna.vaadin.fluent.component;
 
-import com.oliveryasuna.commons.language.fluent.IFluentFactory;
-import com.oliveryasuna.commons.language.fluent.breakdown.BooleanValueBreak;
+import com.oliveryasuna.commons.language.pattern.fluent.IFluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.breakdown.BooleanValueBreak;
 import com.vaadin.flow.component.HasEnabled;
 
 public interface HasEnabledFactory<T extends HasEnabled, F extends HasEnabledFactory<T, F>> extends IFluentFactory<T, F>, HasElementFactory<T, F> {

@@ -1,6 +1,6 @@
 package com.oliveryasuna.vaadin.fluent.component.textfield;
 
-import com.oliveryasuna.commons.language.fluent.IFluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.IFluentFactory;
 import com.oliveryasuna.vaadin.fluent.component.HasStyleFactory;
 import com.vaadin.flow.component.textfield.GeneratedVaadinNumberField;
 

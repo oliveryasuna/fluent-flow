@@ -18,7 +18,7 @@
 
 package com.oliveryasuna.vaadin.fluent.component.webcomponent;
 
-import com.oliveryasuna.commons.language.fluent.FluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
 import com.vaadin.flow.component.webcomponent.WebComponentUI;
 
 public class WebComponentUIFactory extends FluentFactory<WebComponentUI, WebComponentUIFactory>

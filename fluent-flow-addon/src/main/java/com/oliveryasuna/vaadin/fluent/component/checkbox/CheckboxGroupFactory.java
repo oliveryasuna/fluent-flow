@@ -1,6 +1,6 @@
 package com.oliveryasuna.vaadin.fluent.component.checkbox;
 
-import com.oliveryasuna.commons.language.fluent.FluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
 import com.vaadin.flow.component.checkbox.CheckboxGroup;
 
 public class CheckboxGroupFactory<T> extends FluentFactory<CheckboxGroup<T>, CheckboxGroupFactory<T>>

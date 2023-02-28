@@ -1,6 +1,6 @@
 package com.oliveryasuna.vaadin.fluent.component.progressbar;
 
-import com.oliveryasuna.commons.language.fluent.FluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
 import com.vaadin.flow.component.progressbar.ProgressBar;
 
 public class ProgressBarFactory extends FluentFactory<ProgressBar, ProgressBarFactory> implements IProgressBarFactory<ProgressBar, ProgressBarFactory> {

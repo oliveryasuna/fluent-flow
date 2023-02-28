@@ -18,8 +18,8 @@
 
 package com.oliveryasuna.vaadin.fluent.component.listbox;
 
-import com.oliveryasuna.commons.language.fluent.IFluentFactory;
-import com.oliveryasuna.commons.language.fluent.breakdown.ValueBreak;
+import com.oliveryasuna.commons.language.pattern.fluent.IFluentFactory;
+import com.oliveryasuna.commons.language.pattern.fluent.breakdown.ValueBreak;
 import com.oliveryasuna.vaadin.fluent.component.HasSizeFactory;
 import com.oliveryasuna.vaadin.fluent.component.IAbstractSinglePropertyFieldFactory;
 import com.oliveryasuna.vaadin.fluent.data.binder.HasDataProviderFactory;
