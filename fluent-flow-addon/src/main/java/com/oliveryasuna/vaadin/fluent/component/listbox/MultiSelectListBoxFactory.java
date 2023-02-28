@@ -18,10 +18,10 @@
 
 package com.oliveryasuna.vaadin.fluent.component.listbox;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.listbox.MultiSelectListBox;
 
-public class MultiSelectListBoxFactory<T> extends FluentFactory<MultiSelectListBox<T>, MultiSelectListBoxFactory<T>>
+public class MultiSelectListBoxFactory<T> extends ComponentFactory<MultiSelectListBox<T>, MultiSelectListBoxFactory<T>>
     implements IMultiSelectListBoxFactory<MultiSelectListBox<T>, MultiSelectListBoxFactory<T>, T> {
 
   public MultiSelectListBoxFactory(final MultiSelectListBox<T> multiSelectListBox) {

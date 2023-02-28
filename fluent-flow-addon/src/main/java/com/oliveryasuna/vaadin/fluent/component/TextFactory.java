@@ -18,10 +18,9 @@
 
 package com.oliveryasuna.vaadin.fluent.component;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
 import com.vaadin.flow.component.Text;
 
-public class TextFactory extends FluentFactory<Text, TextFactory> implements ITextFactory<Text, TextFactory> {
+public class TextFactory extends ComponentFactory<Text, TextFactory> implements ITextFactory<Text, TextFactory> {
 
   public TextFactory(final Text text) {
     super(text);

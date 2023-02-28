@@ -1,11 +1,11 @@
 package com.oliveryasuna.vaadin.fluent.component.combobox;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.combobox.ComboBox;
 
 import java.util.Collection;
 
-public class ComboBoxFactory<T> extends FluentFactory<ComboBox<T>, ComboBoxFactory<T>> implements IComboBoxFactory<ComboBox<T>, ComboBoxFactory<T>, T> {
+public class ComboBoxFactory<T> extends ComponentFactory<ComboBox<T>, ComboBoxFactory<T>> implements IComboBoxFactory<ComboBox<T>, ComboBoxFactory<T>, T> {
 
   public ComboBoxFactory(final ComboBox<T> comboBox) {
     super(comboBox);

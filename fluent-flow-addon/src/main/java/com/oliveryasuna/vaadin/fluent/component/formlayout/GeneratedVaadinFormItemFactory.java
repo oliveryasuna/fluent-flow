@@ -1,10 +1,10 @@
 package com.oliveryasuna.vaadin.fluent.component.formlayout;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.formlayout.GeneratedVaadinFormItem;
 
-public abstract class GeneratedVaadinFormItemFactory<R extends GeneratedVaadinFormItem<R>>
-    extends FluentFactory<GeneratedVaadinFormItem<R>, GeneratedVaadinFormItemFactory<R>>
+public class GeneratedVaadinFormItemFactory<R extends GeneratedVaadinFormItem<R>>
+    extends ComponentFactory<GeneratedVaadinFormItem<R>, GeneratedVaadinFormItemFactory<R>>
     implements IGeneratedVaadinFormItemFactory<GeneratedVaadinFormItem<R>, GeneratedVaadinFormItemFactory<R>, R> {
 
   public GeneratedVaadinFormItemFactory(final GeneratedVaadinFormItem<R> generatedVaadinFormItem) {

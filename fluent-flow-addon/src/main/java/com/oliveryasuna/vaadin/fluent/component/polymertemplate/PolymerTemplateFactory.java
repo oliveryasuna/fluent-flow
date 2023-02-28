@@ -18,11 +18,11 @@
 
 package com.oliveryasuna.vaadin.fluent.component.polymertemplate;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.polymertemplate.PolymerTemplate;
 import com.vaadin.flow.templatemodel.TemplateModel;
 
-public abstract class PolymerTemplateFactory<M extends TemplateModel> extends FluentFactory<PolymerTemplate<M>, PolymerTemplateFactory<M>>
+public class PolymerTemplateFactory<M extends TemplateModel> extends ComponentFactory<PolymerTemplate<M>, PolymerTemplateFactory<M>>
     implements IPolymerTemplateFactory<PolymerTemplate<M>, PolymerTemplateFactory<M>, M> {
 
   public PolymerTemplateFactory(final PolymerTemplate<M> polymerTemplate) {

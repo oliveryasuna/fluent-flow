@@ -18,10 +18,9 @@
 
 package com.oliveryasuna.vaadin.fluent.component;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
 import com.vaadin.flow.component.UI;
 
-public class UIFactory extends FluentFactory<UI, UIFactory> implements IUIFactory<UI, UIFactory> {
+public class UIFactory extends ComponentFactory<UI, UIFactory> implements IUIFactory<UI, UIFactory> {
 
   public UIFactory(final UI ui) {
     super(ui);

@@ -1,10 +1,10 @@
 package com.oliveryasuna.vaadin.fluent.component.textfield;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.textfield.AbstractNumberField;
 
-public abstract class AbstractNumberFieldFactory<C extends AbstractNumberField<C, T>, T extends Number>
-    extends FluentFactory<AbstractNumberField<C, T>, AbstractNumberFieldFactory<C, T>>
+public class AbstractNumberFieldFactory<C extends AbstractNumberField<C, T>, T extends Number>
+    extends ComponentFactory<AbstractNumberField<C, T>, AbstractNumberFieldFactory<C, T>>
     implements IAbstractNumberFieldFactory<AbstractNumberField<C, T>, AbstractNumberFieldFactory<C, T>, C, T> {
 
   public AbstractNumberFieldFactory(final AbstractNumberField<C, T> abstractNumberField) {

@@ -18,7 +18,7 @@
 
 package com.oliveryasuna.vaadin.fluent.component.datetimepicker;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.AbstractField.ComponentValueChangeEvent;
 import com.vaadin.flow.component.HasValue.ValueChangeListener;
 import com.vaadin.flow.component.datetimepicker.DateTimePicker;
@@ -26,7 +26,7 @@ import com.vaadin.flow.component.datetimepicker.DateTimePicker;
 import java.time.LocalDateTime;
 import java.util.Locale;
 
-public class DateTimePickerFactory extends FluentFactory<DateTimePicker, DateTimePickerFactory>
+public class DateTimePickerFactory extends ComponentFactory<DateTimePicker, DateTimePickerFactory>
     implements IDateTimePickerFactory<DateTimePicker, DateTimePickerFactory> {
 
   public DateTimePickerFactory(final DateTimePicker dateTimePicker) {

@@ -1,10 +1,10 @@
 package com.oliveryasuna.vaadin.fluent.component.accordion;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.accordion.AccordionPanel;
 
-public class AccordionPanelFactory extends FluentFactory<AccordionPanel, AccordionPanelFactory>
+public class AccordionPanelFactory extends ComponentFactory<AccordionPanel, AccordionPanelFactory>
     implements IAccordionPanelFactory<AccordionPanel, AccordionPanelFactory> {
 
   public AccordionPanelFactory(final AccordionPanel accordionPanel) {

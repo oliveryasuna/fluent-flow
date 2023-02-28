@@ -1,9 +1,9 @@
 package com.oliveryasuna.vaadin.fluent.component.html;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.html.IFrame;
 
-public class IFrameFactory extends FluentFactory<IFrame, IFrameFactory> implements IIFrameFactory<IFrame, IFrameFactory> {
+public class IFrameFactory extends ComponentFactory<IFrame, IFrameFactory> implements IIFrameFactory<IFrame, IFrameFactory> {
 
   public IFrameFactory(final IFrame iframe) {
     super(iframe);

@@ -1,11 +1,11 @@
 package com.oliveryasuna.vaadin.fluent.component.html;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.html.NativeDetails;
 import com.vaadin.flow.component.html.NativeDetails.Summary;
 
-public class NativeDetailsFactory extends FluentFactory<NativeDetails, NativeDetailsFactory>
+public class NativeDetailsFactory extends ComponentFactory<NativeDetails, NativeDetailsFactory>
     implements INativeDetailsFactory<NativeDetails, NativeDetailsFactory> {
 
   public NativeDetailsFactory(final NativeDetails nativeDetails) {
@@ -32,7 +32,7 @@ public class NativeDetailsFactory extends FluentFactory<NativeDetails, NativeDet
     super(new NativeDetails(summaryContent, content));
   }
 
-  public static class SummaryFactory extends FluentFactory<Summary, SummaryFactory> implements ISummaryFactory<Summary, SummaryFactory> {
+  public static class SummaryFactory extends ComponentFactory<Summary, SummaryFactory> implements ISummaryFactory<Summary, SummaryFactory> {
 
     public SummaryFactory(final Summary summary) {
       super(summary);

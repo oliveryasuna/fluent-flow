@@ -18,11 +18,11 @@
 
 package com.oliveryasuna.vaadin.fluent.component.timepicker;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.timepicker.GeneratedVaadinTimePicker;
 
-public abstract class GeneratedVaadinTimePickerFactory<R extends GeneratedVaadinTimePicker<R, T>, T>
-    extends FluentFactory<GeneratedVaadinTimePicker<R, T>, GeneratedVaadinTimePickerFactory<R, T>>
+public class GeneratedVaadinTimePickerFactory<R extends GeneratedVaadinTimePicker<R, T>, T>
+    extends ComponentFactory<GeneratedVaadinTimePicker<R, T>, GeneratedVaadinTimePickerFactory<R, T>>
     implements IGeneratedVaadinTimePickerFactory<GeneratedVaadinTimePicker<R, T>, GeneratedVaadinTimePickerFactory<R, T>, R, T> {
 
   public GeneratedVaadinTimePickerFactory(final GeneratedVaadinTimePicker<R, T> generatedVaadinTimePicker) {

@@ -1,11 +1,11 @@
 package com.oliveryasuna.vaadin.fluent.component.orderedlayout;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.orderedlayout.Scroller;
 import com.vaadin.flow.component.orderedlayout.Scroller.ScrollDirection;
 
-public class ScrollerFactory extends FluentFactory<Scroller, ScrollerFactory> implements IScrollerFactory<Scroller, ScrollerFactory> {
+public class ScrollerFactory extends ComponentFactory<Scroller, ScrollerFactory> implements IScrollerFactory<Scroller, ScrollerFactory> {
 
   public ScrollerFactory(final Scroller scroller) {
     super(scroller);

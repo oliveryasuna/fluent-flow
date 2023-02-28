@@ -1,9 +1,9 @@
 package com.oliveryasuna.vaadin.fluent.component.login;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.login.AbstractLogin;
 
-public abstract class AbstractLoginFactory extends FluentFactory<AbstractLogin, AbstractLoginFactory>
+public class AbstractLoginFactory extends ComponentFactory<AbstractLogin, AbstractLoginFactory>
     implements IAbstractLoginFactory<AbstractLogin, AbstractLoginFactory> {
 
   public AbstractLoginFactory(final AbstractLogin abstractLogin) {

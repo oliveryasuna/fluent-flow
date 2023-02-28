@@ -1,10 +1,10 @@
 package com.oliveryasuna.vaadin.fluent.component.html;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.html.Image;
 import com.vaadin.flow.server.AbstractStreamResource;
 
-public class ImageFactory extends FluentFactory<Image, ImageFactory> implements IImageFactory<Image, ImageFactory> {
+public class ImageFactory extends ComponentFactory<Image, ImageFactory> implements IImageFactory<Image, ImageFactory> {
 
   public ImageFactory(final Image image) {
     super(image);

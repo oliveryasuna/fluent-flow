@@ -1,13 +1,13 @@
 package com.oliveryasuna.vaadin.fluent.component.textfield;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.AbstractField.ComponentValueChangeEvent;
 import com.vaadin.flow.component.HasValue.ValueChangeListener;
 import com.vaadin.flow.component.textfield.BigDecimalField;
 
 import java.math.BigDecimal;
 
-public class BigDecimalFieldFactory extends FluentFactory<BigDecimalField, BigDecimalFieldFactory>
+public class BigDecimalFieldFactory extends ComponentFactory<BigDecimalField, BigDecimalFieldFactory>
     implements IBigDecimalFieldFactory<BigDecimalField, BigDecimalFieldFactory> {
 
   public BigDecimalFieldFactory(final BigDecimalField bigDecimalField) {

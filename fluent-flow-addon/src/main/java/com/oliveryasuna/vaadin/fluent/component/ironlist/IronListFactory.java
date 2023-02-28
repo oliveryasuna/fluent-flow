@@ -18,10 +18,10 @@
 
 package com.oliveryasuna.vaadin.fluent.component.ironlist;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.ironlist.IronList;
 
-public class IronListFactory<T2> extends FluentFactory<IronList<T2>, IronListFactory<T2>> implements IIronListFactory<IronList<T2>, IronListFactory<T2>, T2> {
+public class IronListFactory<T2> extends ComponentFactory<IronList<T2>, IronListFactory<T2>> implements IIronListFactory<IronList<T2>, IronListFactory<T2>, T2> {
 
   public IronListFactory(final IronList<T2> ironList) {
     super(ironList);

@@ -18,10 +18,10 @@
 
 package com.oliveryasuna.vaadin.fluent.component.select;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.select.Select;
 
-public class SelectFactory<T> extends FluentFactory<Select<T>, SelectFactory<T>> implements ISelectFactory<Select<T>, SelectFactory<T>, T> {
+public class SelectFactory<T> extends ComponentFactory<Select<T>, SelectFactory<T>> implements ISelectFactory<Select<T>, SelectFactory<T>, T> {
 
   public SelectFactory(final Select<T> select) {
     super(select);

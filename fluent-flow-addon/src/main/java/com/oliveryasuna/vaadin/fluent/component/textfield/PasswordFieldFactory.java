@@ -1,11 +1,11 @@
 package com.oliveryasuna.vaadin.fluent.component.textfield;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.AbstractField.ComponentValueChangeEvent;
 import com.vaadin.flow.component.HasValue.ValueChangeListener;
 import com.vaadin.flow.component.textfield.PasswordField;
 
-public class PasswordFieldFactory extends FluentFactory<PasswordField, PasswordFieldFactory> implements IPasswordFieldFactory<PasswordField, PasswordFieldFactory> {
+public class PasswordFieldFactory extends ComponentFactory<PasswordField, PasswordFieldFactory> implements IPasswordFieldFactory<PasswordField, PasswordFieldFactory> {
 
   public PasswordFieldFactory(final PasswordField passwordField) {
     super(passwordField);

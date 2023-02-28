@@ -18,11 +18,11 @@
 
 package com.oliveryasuna.vaadin.fluent.component.splitlayout;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.splitlayout.SplitLayout;
 
-public class SplitLayoutFactory extends FluentFactory<SplitLayout, SplitLayoutFactory> implements ISplitLayoutFactory<SplitLayout, SplitLayoutFactory> {
+public class SplitLayoutFactory extends ComponentFactory<SplitLayout, SplitLayoutFactory> implements ISplitLayoutFactory<SplitLayout, SplitLayoutFactory> {
 
   public SplitLayoutFactory(final SplitLayout splitLayout) {
     super(splitLayout);

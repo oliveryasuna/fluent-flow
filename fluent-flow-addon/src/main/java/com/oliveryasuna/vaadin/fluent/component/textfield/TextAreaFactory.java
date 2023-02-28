@@ -1,11 +1,11 @@
 package com.oliveryasuna.vaadin.fluent.component.textfield;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.AbstractField.ComponentValueChangeEvent;
 import com.vaadin.flow.component.HasValue.ValueChangeListener;
 import com.vaadin.flow.component.textfield.TextArea;
 
-public class TextAreaFactory extends FluentFactory<TextArea, TextAreaFactory> implements ITextAreaFactory<TextArea, TextAreaFactory> {
+public class TextAreaFactory extends ComponentFactory<TextArea, TextAreaFactory> implements ITextAreaFactory<TextArea, TextAreaFactory> {
 
   public TextAreaFactory(final TextArea textArea) {
     super(textArea);

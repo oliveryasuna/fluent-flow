@@ -1,9 +1,9 @@
 package com.oliveryasuna.vaadin.fluent.component.avatar;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.avatar.Avatar;
 
-public class AvatarFactory extends FluentFactory<Avatar, AvatarFactory> implements IAvatarFactory<Avatar, AvatarFactory> {
+public class AvatarFactory extends ComponentFactory<Avatar, AvatarFactory> implements IAvatarFactory<Avatar, AvatarFactory> {
 
   public AvatarFactory(final Avatar avatar) {
     super(avatar);

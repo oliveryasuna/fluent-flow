@@ -1,10 +1,10 @@
 package com.oliveryasuna.vaadin.fluent.component.html;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.html.Emphasis;
 
-public class EmphasisFactory extends FluentFactory<Emphasis, EmphasisFactory> implements IEmphasisFactory<Emphasis, EmphasisFactory> {
+public class EmphasisFactory extends ComponentFactory<Emphasis, EmphasisFactory> implements IEmphasisFactory<Emphasis, EmphasisFactory> {
 
   public EmphasisFactory(final Emphasis Emphasis) {
     super(Emphasis);

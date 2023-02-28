@@ -1,11 +1,11 @@
 package com.oliveryasuna.vaadin.fluent.component.checkbox;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.AbstractField.ComponentValueChangeEvent;
 import com.vaadin.flow.component.HasValue.ValueChangeListener;
 import com.vaadin.flow.component.checkbox.Checkbox;
 
-public class CheckboxFactory extends FluentFactory<Checkbox, CheckboxFactory> implements ICheckboxFactory<Checkbox, CheckboxFactory> {
+public class CheckboxFactory extends ComponentFactory<Checkbox, CheckboxFactory> implements ICheckboxFactory<Checkbox, CheckboxFactory> {
 
   public CheckboxFactory(final Checkbox checkbox) {
     super(checkbox);

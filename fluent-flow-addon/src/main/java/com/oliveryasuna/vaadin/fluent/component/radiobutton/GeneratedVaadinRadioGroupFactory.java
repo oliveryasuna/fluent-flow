@@ -18,11 +18,11 @@
 
 package com.oliveryasuna.vaadin.fluent.component.radiobutton;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.radiobutton.GeneratedVaadinRadioGroup;
 
-public abstract class GeneratedVaadinRadioGroupFactory<R extends GeneratedVaadinRadioGroup<R, T>, T>
-    extends FluentFactory<GeneratedVaadinRadioGroup<R, T>, GeneratedVaadinRadioGroupFactory<R, T>>
+public class GeneratedVaadinRadioGroupFactory<R extends GeneratedVaadinRadioGroup<R, T>, T>
+    extends ComponentFactory<GeneratedVaadinRadioGroup<R, T>, GeneratedVaadinRadioGroupFactory<R, T>>
     implements IGeneratedVaadinRadioGroupFactory<GeneratedVaadinRadioGroup<R, T>, GeneratedVaadinRadioGroupFactory<R, T>, R, T> {
 
   public GeneratedVaadinRadioGroupFactory(final GeneratedVaadinRadioGroup<R, T> generatedVaadinRadioGroup) {

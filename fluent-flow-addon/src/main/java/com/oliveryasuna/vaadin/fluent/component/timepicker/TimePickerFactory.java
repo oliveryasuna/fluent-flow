@@ -18,14 +18,14 @@
 
 package com.oliveryasuna.vaadin.fluent.component.timepicker;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.AbstractField.ComponentValueChangeEvent;
 import com.vaadin.flow.component.HasValue.ValueChangeListener;
 import com.vaadin.flow.component.timepicker.TimePicker;
 
 import java.time.LocalTime;
 
-public class TimePickerFactory extends FluentFactory<TimePicker, TimePickerFactory> implements ITimePickerFactory<TimePicker, TimePickerFactory> {
+public class TimePickerFactory extends ComponentFactory<TimePicker, TimePickerFactory> implements ITimePickerFactory<TimePicker, TimePickerFactory> {
 
   public TimePickerFactory(final TimePicker timePicker) {
     super(timePicker);

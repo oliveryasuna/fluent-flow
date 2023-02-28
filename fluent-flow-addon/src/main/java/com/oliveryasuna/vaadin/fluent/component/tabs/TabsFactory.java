@@ -1,10 +1,10 @@
 package com.oliveryasuna.vaadin.fluent.component.tabs;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.tabs.Tab;
 import com.vaadin.flow.component.tabs.Tabs;
 
-public class TabsFactory extends FluentFactory<Tabs, TabsFactory> implements ITabsFactory<Tabs, TabsFactory> {
+public class TabsFactory extends ComponentFactory<Tabs, TabsFactory> implements ITabsFactory<Tabs, TabsFactory> {
 
   public TabsFactory(final Tabs tabs) {
     super(tabs);

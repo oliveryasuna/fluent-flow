@@ -18,11 +18,11 @@
 
 package com.oliveryasuna.vaadin.fluent.component.upload;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.upload.Receiver;
 import com.vaadin.flow.component.upload.Upload;
 
-public class UploadFactory extends FluentFactory<Upload, UploadFactory> implements IUploadFactory<Upload, UploadFactory> {
+public class UploadFactory extends ComponentFactory<Upload, UploadFactory> implements IUploadFactory<Upload, UploadFactory> {
 
   public UploadFactory(final Upload upload) {
     super(upload);

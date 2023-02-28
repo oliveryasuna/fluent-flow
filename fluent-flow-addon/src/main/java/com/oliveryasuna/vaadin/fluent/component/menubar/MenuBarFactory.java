@@ -18,10 +18,10 @@
 
 package com.oliveryasuna.vaadin.fluent.component.menubar;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.menubar.MenuBar;
 
-public class MenuBarFactory extends FluentFactory<MenuBar, MenuBarFactory> implements IMenuBarFactory<MenuBar, MenuBarFactory> {
+public class MenuBarFactory extends ComponentFactory<MenuBar, MenuBarFactory> implements IMenuBarFactory<MenuBar, MenuBarFactory> {
 
   public MenuBarFactory(final MenuBar menuBar) {
     super(menuBar);

@@ -18,12 +18,11 @@
 
 package com.oliveryasuna.vaadin.fluent.component;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
 import com.vaadin.flow.component.Html;
 
 import java.io.InputStream;
 
-public class HtmlFactory extends FluentFactory<Html, HtmlFactory> implements IHtmlFactory<Html, HtmlFactory> {
+public class HtmlFactory extends ComponentFactory<Html, HtmlFactory> implements IHtmlFactory<Html, HtmlFactory> {
 
   public HtmlFactory(final Html html) {
     super(html);

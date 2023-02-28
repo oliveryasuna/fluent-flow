@@ -1,10 +1,10 @@
 package com.oliveryasuna.vaadin.fluent.component.html;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.html.H2;
 
-public class H2Factory extends FluentFactory<H2, H2Factory> implements IH2Factory<H2, H2Factory> {
+public class H2Factory extends ComponentFactory<H2, H2Factory> implements IH2Factory<H2, H2Factory> {
 
   public H2Factory(final H2 H2) {
     super(H2);

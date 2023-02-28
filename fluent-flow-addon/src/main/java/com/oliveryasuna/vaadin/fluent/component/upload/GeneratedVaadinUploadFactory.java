@@ -18,11 +18,11 @@
 
 package com.oliveryasuna.vaadin.fluent.component.upload;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.upload.GeneratedVaadinUpload;
 
-public abstract class GeneratedVaadinUploadFactory<R extends GeneratedVaadinUpload<R>>
-    extends FluentFactory<GeneratedVaadinUpload<R>, GeneratedVaadinUploadFactory<R>>
+public class GeneratedVaadinUploadFactory<R extends GeneratedVaadinUpload<R>>
+    extends ComponentFactory<GeneratedVaadinUpload<R>, GeneratedVaadinUploadFactory<R>>
     implements IGeneratedVaadinUploadFactory<GeneratedVaadinUpload<R>, GeneratedVaadinUploadFactory<R>, R> {
 
   public GeneratedVaadinUploadFactory(final GeneratedVaadinUpload<R> generatedVaadinUpload) {

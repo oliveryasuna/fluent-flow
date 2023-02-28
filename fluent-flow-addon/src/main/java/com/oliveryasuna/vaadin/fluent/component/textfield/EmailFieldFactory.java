@@ -1,11 +1,11 @@
 package com.oliveryasuna.vaadin.fluent.component.textfield;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.AbstractField.ComponentValueChangeEvent;
 import com.vaadin.flow.component.HasValue.ValueChangeListener;
 import com.vaadin.flow.component.textfield.EmailField;
 
-public class EmailFieldFactory extends FluentFactory<EmailField, EmailFieldFactory> implements IEmailFieldFactory<EmailField, EmailFieldFactory> {
+public class EmailFieldFactory extends ComponentFactory<EmailField, EmailFieldFactory> implements IEmailFieldFactory<EmailField, EmailFieldFactory> {
 
   public EmailFieldFactory(final EmailField emailField) {
     super(emailField);

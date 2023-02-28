@@ -1,13 +1,12 @@
 package com.oliveryasuna.vaadin.fluent.component;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
 import com.vaadin.flow.component.AbstractField;
 import com.vaadin.flow.component.AbstractSinglePropertyField;
 import com.vaadin.flow.function.SerializableBiFunction;
 import com.vaadin.flow.function.SerializableFunction;
 
 public class AbstractSinglePropertyFieldFactory<C extends AbstractField<C, T>, T>
-    extends FluentFactory<AbstractSinglePropertyField<C, T>, AbstractSinglePropertyFieldFactory<C, T>>
+    extends ComponentFactory<AbstractSinglePropertyField<C, T>, AbstractSinglePropertyFieldFactory<C, T>>
     implements IAbstractSinglePropertyFieldFactory<AbstractSinglePropertyField<C, T>, AbstractSinglePropertyFieldFactory<C, T>, C, T> {
 
   public AbstractSinglePropertyFieldFactory(final AbstractSinglePropertyField<C, T> abstractSinglePropertyField) {

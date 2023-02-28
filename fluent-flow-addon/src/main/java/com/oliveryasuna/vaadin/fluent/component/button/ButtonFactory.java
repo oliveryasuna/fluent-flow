@@ -1,12 +1,12 @@
 package com.oliveryasuna.vaadin.fluent.component.button;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.ClickEvent;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.ComponentEventListener;
 import com.vaadin.flow.component.button.Button;
 
-public class ButtonFactory extends FluentFactory<Button, ButtonFactory> implements IButtonFactory<Button, ButtonFactory> {
+public class ButtonFactory extends ComponentFactory<Button, ButtonFactory> implements IButtonFactory<Button, ButtonFactory> {
 
   public ButtonFactory(final Button button) {
     super(button);

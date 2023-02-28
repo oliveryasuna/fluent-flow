@@ -18,11 +18,11 @@
 
 package com.oliveryasuna.vaadin.fluent.component.select.generated;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.select.generated.GeneratedVaadinSelect;
 
-public abstract class GeneratedVaadinSelectFactory<R extends GeneratedVaadinSelect<R, T>, T>
-    extends FluentFactory<GeneratedVaadinSelect<R, T>, GeneratedVaadinSelectFactory<R, T>>
+public class GeneratedVaadinSelectFactory<R extends GeneratedVaadinSelect<R, T>, T>
+    extends ComponentFactory<GeneratedVaadinSelect<R, T>, GeneratedVaadinSelectFactory<R, T>>
     implements IGeneratedVaadinSelectFactory<GeneratedVaadinSelect<R, T>, GeneratedVaadinSelectFactory<R, T>, R, T> {
 
   public GeneratedVaadinSelectFactory(final GeneratedVaadinSelect<R, T> generatedVaadinSelect) {

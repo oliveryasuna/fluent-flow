@@ -1,9 +1,9 @@
 package com.oliveryasuna.vaadin.fluent.component.applayout;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.applayout.AppLayout;
 
-public class AppLayoutFactory extends FluentFactory<AppLayout, AppLayoutFactory> implements IAppLayoutFactory<AppLayout, AppLayoutFactory> {
+public class AppLayoutFactory extends ComponentFactory<AppLayout, AppLayoutFactory> implements IAppLayoutFactory<AppLayout, AppLayoutFactory> {
 
   public AppLayoutFactory(final AppLayout appLayout) {
     super(appLayout);

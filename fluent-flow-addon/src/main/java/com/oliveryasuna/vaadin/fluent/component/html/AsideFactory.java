@@ -18,11 +18,11 @@
 
 package com.oliveryasuna.vaadin.fluent.component.html;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.html.Aside;
 
-public class AsideFactory extends FluentFactory<Aside, AsideFactory> implements IAsideFactory<Aside, AsideFactory> {
+public class AsideFactory extends ComponentFactory<Aside, AsideFactory> implements IAsideFactory<Aside, AsideFactory> {
 
   public AsideFactory(final Aside aside) {
     super(aside);

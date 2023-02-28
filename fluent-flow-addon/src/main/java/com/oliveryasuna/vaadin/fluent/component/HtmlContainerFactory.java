@@ -1,10 +1,11 @@
 package com.oliveryasuna.vaadin.fluent.component;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.HtmlContainer;
 
-public class HtmlContainerFactory extends FluentFactory<HtmlContainer, HtmlContainerFactory>
+// TODO: This should extend HtmlComponentFactory.
+//       Similar for a lot of classes.
+public class HtmlContainerFactory extends ComponentFactory<HtmlContainer, HtmlContainerFactory>
     implements IHtmlContainerFactory<HtmlContainer, HtmlContainerFactory> {
 
   public HtmlContainerFactory(final HtmlContainer htmlContainer) {

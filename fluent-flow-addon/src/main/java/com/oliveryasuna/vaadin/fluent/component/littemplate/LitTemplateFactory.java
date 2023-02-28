@@ -18,10 +18,10 @@
 
 package com.oliveryasuna.vaadin.fluent.component.littemplate;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.littemplate.LitTemplate;
 
-public abstract class LitTemplateFactory extends FluentFactory<LitTemplate, LitTemplateFactory>
+public class LitTemplateFactory extends ComponentFactory<LitTemplate, LitTemplateFactory>
     implements ILitTemplateFactory<LitTemplate, LitTemplateFactory> {
 
   public LitTemplateFactory(final LitTemplate litTemplate) {

@@ -1,10 +1,10 @@
 package com.oliveryasuna.vaadin.fluent.component.html;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.html.ListItem;
 import com.vaadin.flow.component.html.UnorderedList;
 
-public class UnorderedListFactory extends FluentFactory<UnorderedList, UnorderedListFactory>
+public class UnorderedListFactory extends ComponentFactory<UnorderedList, UnorderedListFactory>
     implements IUnorderedListFactory<UnorderedList, UnorderedListFactory> {
 
   public UnorderedListFactory(final UnorderedList unorderedList) {

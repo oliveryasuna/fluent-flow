@@ -1,10 +1,10 @@
 package com.oliveryasuna.vaadin.fluent.component.login;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.login.LoginForm;
 import com.vaadin.flow.component.login.LoginI18n;
 
-public class LoginFormFactory extends FluentFactory<LoginForm, LoginFormFactory> implements ILoginFormFactory<LoginForm, LoginFormFactory> {
+public class LoginFormFactory extends ComponentFactory<LoginForm, LoginFormFactory> implements ILoginFormFactory<LoginForm, LoginFormFactory> {
 
   public LoginFormFactory(final LoginForm loginForm) {
     super(loginForm);

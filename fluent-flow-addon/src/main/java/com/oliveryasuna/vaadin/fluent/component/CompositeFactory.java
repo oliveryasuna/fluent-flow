@@ -18,11 +18,10 @@
 
 package com.oliveryasuna.vaadin.fluent.component;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.Composite;
 
-public abstract class CompositeFactory<T extends Component> extends FluentFactory<Composite<T>, CompositeFactory<T>>
+public class CompositeFactory<T extends Component> extends ComponentFactory<Composite<T>, CompositeFactory<T>>
     implements ICompositeFactory<Composite<T>, CompositeFactory<T>, T> {
 
   public CompositeFactory(final Composite<T> composite) {

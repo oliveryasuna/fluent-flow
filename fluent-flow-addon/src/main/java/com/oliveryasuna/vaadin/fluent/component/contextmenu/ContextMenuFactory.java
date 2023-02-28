@@ -1,10 +1,10 @@
 package com.oliveryasuna.vaadin.fluent.component.contextmenu;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.contextmenu.ContextMenu;
 
-public class ContextMenuFactory extends FluentFactory<ContextMenu, ContextMenuFactory> implements IContextMenuFactory<ContextMenu, ContextMenuFactory> {
+public class ContextMenuFactory extends ComponentFactory<ContextMenu, ContextMenuFactory> implements IContextMenuFactory<ContextMenu, ContextMenuFactory> {
 
   public ContextMenuFactory(final ContextMenu contextMenu) {
     super(contextMenu);

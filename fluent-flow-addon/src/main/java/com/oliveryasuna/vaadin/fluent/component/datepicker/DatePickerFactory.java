@@ -14,7 +14,7 @@
 
 package com.oliveryasuna.vaadin.fluent.component.datepicker;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.AbstractField.ComponentValueChangeEvent;
 import com.vaadin.flow.component.HasValue;
 import com.vaadin.flow.component.datepicker.DatePicker;
@@ -22,7 +22,7 @@ import com.vaadin.flow.component.datepicker.DatePicker;
 import java.time.LocalDate;
 import java.util.Locale;
 
-public class DatePickerFactory extends FluentFactory<DatePicker, DatePickerFactory> implements IDatePickerFactory<DatePicker, DatePickerFactory> {
+public class DatePickerFactory extends ComponentFactory<DatePicker, DatePickerFactory> implements IDatePickerFactory<DatePicker, DatePickerFactory> {
 
   public DatePickerFactory(final DatePicker datePicker) {
     super(datePicker);

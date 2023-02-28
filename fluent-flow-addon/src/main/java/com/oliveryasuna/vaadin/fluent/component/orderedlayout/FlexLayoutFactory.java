@@ -1,10 +1,10 @@
 package com.oliveryasuna.vaadin.fluent.component.orderedlayout;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.orderedlayout.FlexLayout;
 
-public class FlexLayoutFactory extends FluentFactory<FlexLayout, FlexLayoutFactory> implements IFlexLayoutFactory<FlexLayout, FlexLayoutFactory> {
+public class FlexLayoutFactory extends ComponentFactory<FlexLayout, FlexLayoutFactory> implements IFlexLayoutFactory<FlexLayout, FlexLayoutFactory> {
 
   public FlexLayoutFactory(final FlexLayout flexLayout) {
     super(flexLayout);

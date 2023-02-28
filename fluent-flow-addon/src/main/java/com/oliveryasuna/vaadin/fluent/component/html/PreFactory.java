@@ -1,10 +1,10 @@
 package com.oliveryasuna.vaadin.fluent.component.html;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.html.Pre;
 
-public class PreFactory extends FluentFactory<Pre, PreFactory> implements IPreFactory<Pre, PreFactory> {
+public class PreFactory extends ComponentFactory<Pre, PreFactory> implements IPreFactory<Pre, PreFactory> {
 
   public PreFactory(final Pre Pre) {
     super(Pre);

@@ -18,11 +18,11 @@
 
 package com.oliveryasuna.vaadin.fluent.component.page;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.UI;
 import com.vaadin.flow.component.page.Page;
 
-public class PageFactory extends FluentFactory<Page, PageFactory> implements IPageFactory<Page, PageFactory> {
+public class PageFactory extends ComponentFactory<Page, PageFactory> implements IPageFactory<Page, PageFactory> {
 
   public PageFactory(final Page page) {
     super(page);

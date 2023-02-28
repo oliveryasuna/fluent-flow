@@ -1,10 +1,10 @@
 package com.oliveryasuna.vaadin.fluent.component.html;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.html.Span;
 
-public class SpanFactory extends FluentFactory<Span, SpanFactory> implements ISpanFactory<Span, SpanFactory> {
+public class SpanFactory extends ComponentFactory<Span, SpanFactory> implements ISpanFactory<Span, SpanFactory> {
 
   public SpanFactory(final Span Span) {
     super(Span);

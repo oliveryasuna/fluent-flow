@@ -18,12 +18,11 @@
 
 package com.oliveryasuna.vaadin.fluent.component;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
 import com.vaadin.flow.component.AbstractCompositeField;
 import com.vaadin.flow.component.Component;
 
-public abstract class AbstractCompositeFieldFactory<C extends Component, S extends AbstractCompositeField<C, S, T>, T>
-    extends FluentFactory<AbstractCompositeField<C, S, T>, AbstractCompositeFieldFactory<C, S, T>>
+public class AbstractCompositeFieldFactory<C extends Component, S extends AbstractCompositeField<C, S, T>, T>
+    extends ComponentFactory<AbstractCompositeField<C, S, T>, AbstractCompositeFieldFactory<C, S, T>>
     implements IAbstractCompositeFieldFactory<AbstractCompositeField<C, S, T>, AbstractCompositeFieldFactory<C, S, T>, C, S, T> {
 
   public AbstractCompositeFieldFactory(final AbstractCompositeField<C, S, T> abstractCompositeField) {

@@ -1,10 +1,10 @@
 package com.oliveryasuna.vaadin.fluent.component.html;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.html.Paragraph;
 
-public class ParagraphFactory extends FluentFactory<Paragraph, ParagraphFactory> implements IParagraphFactory<Paragraph, ParagraphFactory> {
+public class ParagraphFactory extends ComponentFactory<Paragraph, ParagraphFactory> implements IParagraphFactory<Paragraph, ParagraphFactory> {
 
   public ParagraphFactory(final Paragraph Paragraph) {
     super(Paragraph);

@@ -1,11 +1,11 @@
 package com.oliveryasuna.vaadin.fluent.component.textfield;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.AbstractField.ComponentValueChangeEvent;
 import com.vaadin.flow.component.HasValue.ValueChangeListener;
 import com.vaadin.flow.component.textfield.NumberField;
 
-public class NumberFieldFactory extends FluentFactory<NumberField, NumberFieldFactory>
+public class NumberFieldFactory extends ComponentFactory<NumberField, NumberFieldFactory>
     implements INumberFieldFactory<NumberField, NumberFieldFactory> {
 
   public NumberFieldFactory(final NumberField numberField) {

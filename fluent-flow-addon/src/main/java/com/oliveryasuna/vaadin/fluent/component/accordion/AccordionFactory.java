@@ -1,9 +1,9 @@
 package com.oliveryasuna.vaadin.fluent.component.accordion;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.accordion.Accordion;
 
-public class AccordionFactory extends FluentFactory<Accordion, AccordionFactory> implements IAccordionFactory<Accordion, AccordionFactory> {
+public class AccordionFactory extends ComponentFactory<Accordion, AccordionFactory> implements IAccordionFactory<Accordion, AccordionFactory> {
 
   public AccordionFactory(final Accordion accordion) {
     super(accordion);

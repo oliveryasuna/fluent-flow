@@ -18,11 +18,11 @@
 
 package com.oliveryasuna.vaadin.fluent.component.splitlayout;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.splitlayout.GeneratedVaadinSplitLayout;
 
-public abstract class GeneratedVaadinSplitLayoutFactory<R extends GeneratedVaadinSplitLayout<R>>
-    extends FluentFactory<GeneratedVaadinSplitLayout<R>, GeneratedVaadinSplitLayoutFactory<R>>
+public class GeneratedVaadinSplitLayoutFactory<R extends GeneratedVaadinSplitLayout<R>>
+    extends ComponentFactory<GeneratedVaadinSplitLayout<R>, GeneratedVaadinSplitLayoutFactory<R>>
     implements IGeneratedVaadinSplitLayoutFactory<GeneratedVaadinSplitLayout<R>, GeneratedVaadinSplitLayoutFactory<R>, R> {
 
   public GeneratedVaadinSplitLayoutFactory(final GeneratedVaadinSplitLayout<R> generatedVaadinSplitLayout) {

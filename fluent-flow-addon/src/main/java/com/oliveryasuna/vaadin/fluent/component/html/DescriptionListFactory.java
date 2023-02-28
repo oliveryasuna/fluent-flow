@@ -1,6 +1,6 @@
 package com.oliveryasuna.vaadin.fluent.component.html;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.html.DescriptionList;
 import com.vaadin.flow.component.html.DescriptionList.Description;
@@ -8,7 +8,7 @@ import com.vaadin.flow.component.html.DescriptionList.Term;
 
 import java.util.Map;
 
-public class DescriptionListFactory extends FluentFactory<DescriptionList, DescriptionListFactory>
+public class DescriptionListFactory extends ComponentFactory<DescriptionList, DescriptionListFactory>
     implements IDescriptionListFactory<DescriptionList, DescriptionListFactory> {
 
   public DescriptionListFactory(final DescriptionList descriptionList) {
@@ -23,7 +23,7 @@ public class DescriptionListFactory extends FluentFactory<DescriptionList, Descr
     super(new DescriptionList(terms));
   }
 
-  public static class TermFactory extends FluentFactory<Term, TermFactory> implements ITermFactory<Term, TermFactory> {
+  public static class TermFactory extends ComponentFactory<Term, TermFactory> implements ITermFactory<Term, TermFactory> {
 
     public TermFactory(final Term term) {
       super(term);
@@ -43,7 +43,7 @@ public class DescriptionListFactory extends FluentFactory<DescriptionList, Descr
 
   }
 
-  public static class DescriptionFactory extends FluentFactory<Description, DescriptionFactory>
+  public static class DescriptionFactory extends ComponentFactory<Description, DescriptionFactory>
       implements IDescriptionFactory<Description, DescriptionFactory> {
 
     public DescriptionFactory(final Description Description) {

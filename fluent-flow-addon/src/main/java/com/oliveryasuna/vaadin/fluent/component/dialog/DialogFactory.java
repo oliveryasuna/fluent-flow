@@ -1,10 +1,10 @@
 package com.oliveryasuna.vaadin.fluent.component.dialog;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
+import com.oliveryasuna.vaadin.fluent.component.ComponentFactory;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.dialog.Dialog;
 
-public class DialogFactory extends FluentFactory<Dialog, DialogFactory> implements IDialogFactory<Dialog, DialogFactory> {
+public class DialogFactory extends ComponentFactory<Dialog, DialogFactory> implements IDialogFactory<Dialog, DialogFactory> {
 
   public DialogFactory(final Dialog dialog) {
     super(dialog);

@@ -1,9 +1,8 @@
 package com.oliveryasuna.vaadin.fluent.component;
 
-import com.oliveryasuna.commons.language.pattern.fluent.FluentFactory;
 import com.vaadin.flow.component.HtmlComponent;
 
-public class HtmlComponentFactory extends FluentFactory<HtmlComponent, HtmlComponentFactory>
+public class HtmlComponentFactory extends ComponentFactory<HtmlComponent, HtmlComponentFactory>
     implements IHtmlComponentFactory<HtmlComponent, HtmlComponentFactory> {
 
   public HtmlComponentFactory(final HtmlComponent htmlComponent) {
