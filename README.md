@@ -1,3 +1,6 @@
+# REPLACED BY https://github.com/oliveryasuna/fluent-flow-2.
+
+
 # Fluent Flow.
  
 Fluent factories for all things Vaadin.
